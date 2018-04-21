@@ -36,10 +36,9 @@ See the [spec file](specification.rst) for a detailed description of the message
 ## Install
 
 ```
-go get github.com/tendermint/abci
-cd $GOPATH/src/github.com/tendermint/abci
-make get_vendor_deps
-make install
+go get github.com/jenyouhu/abci
+cd $GOPATH/src/github.com/jenyouhu/abci
+make all
 ```
 
 ## Implementation
